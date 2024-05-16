@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulaire</title>
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="demo.html"><i class="fas fa-home"></i> Accueil</a></li>
+    <li><a href="apropos.html"><i class="fas fa-info"></i> À propos</a></li>
+    <li><a href="projet.html"><i class="fas fa-envelope"></i> Mes projets</a></li>
+  </ul>
+</nav>
+               <h2 style="text-align: center;">Nous contacter?</h2>
+               <article style="text-align: center;"><h3>Renseigner les champs ci-dessous </h3></article>
+
+<div class="form-container">
+  <form id="monFormulaire" action="destination.php" method="post">
+    <label for="nom"><i class="fas fa-user"></i> Nom:</label>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="prenom"><i class="fas fa-user"></i> Prénom:</label>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+
+    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message"><i class="fas fa-comment"></i> Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
+<footer style="background-color:whitesmoke ;text-align: center;padding: 10px;">
+    <p style="text-align: center;;">Ce site a été créé avec amour <br>
+    123 rue de démonstration
+    </p>
+    <a href="https://www.linkedin.com/in/anges-moise-awignan-600000190/" target="_blank" style="text-align: center;"><i></i>
+        <footer>
+            <p style="text-align: center;"> <br>
+            </p>
+            <a href="https://www.linkedin.com/in/anges-moise-awignan-600000190/" target="_blank" style="text-align: center;"><i style="text-align: center;">naviguer</i>
+    </a>
+</footer>
+</body>
+</html>
